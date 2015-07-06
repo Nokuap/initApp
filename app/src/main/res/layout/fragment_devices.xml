@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        android:backgroundDimEnabled="false"
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"></ProgressBar>
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <TextView
+        android:id="@id/android:empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text=""></TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@android:color/black">
+
+
+        <ToggleButton
+            android:id="@+id/assigned_devices"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textOn="@string/assigned_on"
+            android:textOff="@string/assigned_off"
+            android:visibility="gone" />
+
+        <ToggleButton
+            android:id="@+id/free_devices"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textOn="@string/not_assigned_on"
+            android:textOff="@string/not_assigned_off"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/department_chooser"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/department"
+            android:background="@android:color/black"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</FrameLayout>

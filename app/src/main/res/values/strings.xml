@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Init App</string>
+
+    <string name="empty">No data</string>
+    <string name="no_assigned_user">No assigned user</string>
+    <string name="assigned_on">Assigned ON</string>
+    <string name="assigned_off">Assigned OFF</string>
+    <string name="not_assigned_on">Free ON</string>
+    <string name="not_assigned_off">Free OFF</string>
+    <string name="assign">Assign</string>
+    <string name="department">Choose dep</string>
+
+    <string name="dialog_title">Search by department</string>
+    <string name="search_hint">Search</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+
+
+</resources>

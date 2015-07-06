@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user>
+        <name>Dmitriy</name>
+        <department>Android developer</department>
+        <photoUrl>https://pbs.twimg.com/profile_images/1747681711/pict_400x400.jpg</photoUrl>
+    </user>
+    <user>
+        <name>Pasha</name>
+        <department>IOS developer</department>
+        <photoUrl>https://pbs.twimg.com/profile_images/1532610543/247958_10150203778082029_501012028_7350494_4084846_n__1_.jpg</photoUrl>
+    </user>
+    <user>
+        <name>Olya</name>
+        <department>.NET developer</department>
+        <photoUrl>http://ruskino.ru/artist/8521/md_portret.jpg</photoUrl>
+    </user>
+</users>
